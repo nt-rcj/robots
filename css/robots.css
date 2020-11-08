@@ -1,0 +1,286 @@
+/*
+=====================================================================
+*   Ceevee v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   03-18-2014
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Header Styles
+   c. About Section
+   d. Resume Section
+   e. Portfolio Section
+   f. Call To Action Section
+   g. Testimonials Section
+   h. Contact Section
+   i. Footer
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #eeeeee; }
+
+
+/* ------------------------------------------------------------------ */
+/* c. Home Section
+/* ------------------------------------------------------------------ */
+
+#home {
+   align-items: center;
+   background: #161415 url(../images/about-us_head.jpg) no-repeat;
+   background-position: 50% 50%;
+   background-size: cover;
+   display: flex;
+   height: 30vh;
+   justify-content: center;
+}
+
+/* vertically center banner section */
+#home:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+
+#home .banner-text h1 {
+   font: 10vmin 'Audiowide', cursive;
+   color: rgb(255, 255, 255);
+   letter-spacing: -2px;
+   margin: 0 auto 18px auto;
+   text-shadow: 0px 1px 3px rgba(255, 255, 255, 0);
+   text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. About us
+/* ------------------------------------------------------------------ */
+#about{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 500px;
+ }
+ #about h1 {
+    font: 50px 'Righteous', cursive;
+    color: #000000;
+     word-spacing: -0.15em;
+    font-weight: 300;
+    margin-bottom: 40px;
+ }
+ #about h2 {
+    font: 50px 'Audiowide', cursive;
+    color: rgb(0, 0, 0);
+     word-spacing: -0.15em;
+    font-weight: 300;
+ 
+ }
+
+ #about h3 {
+    font: 30px 'Montserrat', sans-serif;
+    color: rgba(0,0,0,.6);
+     word-spacing: -0.15em;
+    font-weight: 300;
+ 
+ }
+
+ #robots .card {
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin: 50px auto;
+    background: linear-gradient(100deg, #000000 300px, #fff 300px, #fff);
+    box-shadow: 0 0 30px 0 #999;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  #robots .product-image {
+    width: 50%;
+    display: block;
+    height: 100%;
+    position: relative;
+    float: left;
+  }
+  #robots .product-image img {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -60%);
+  }
+  
+  #robots .product-info {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+  }
+
+  
+  #robots .product-name {
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  #robots .product-slogan {
+    color: #666;
+    margin-bottom: 0.8em;
+  }
+  
+  #robots .active {
+    box-shadow: inset 0 0 0 2px #0f7a94, inset 0 0 0 4px #fff;
+  }
+
+/*----*/
+
+.u-clearfix:before,
+.u-clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.u-clearfix:after {
+  clear: both;
+}
+
+.u-clearfix {
+  *zoom: 1;
+}
+
+.subtle {
+  color: #aaa;
+}
+
+.card-container {
+  margin: 25px auto 0;
+  position: relative;
+  width: 1000px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, .07);
+  z-index: 1;
+}
+
+.card-body {
+  display: inline-block;
+  float: left;
+  width: 310px;
+}
+
+.card-number {
+  margin-top: 5px;
+}
+
+.card-circle {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 22px;
+  font-size: 12px;
+  height: 25px;
+  text-align: center;
+  width: 25px;
+}
+
+.card-author {
+  display: block;
+  font-size: 12px;
+  letter-spacing: .5px;
+  margin: 15px 0 0;
+  text-transform: uppercase;
+}
+
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 10px 0;
+}
+
+.card-description {
+  display: inline-block;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.card-read {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin: 5px 0 20px;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.card-read:after {
+  background-color: #b8bddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 9px;
+  width: 75%;
+}
+
+
+.card-media {
+  float: right;
+}
+
+.card-shadow {
+  background-color: #fff;
+  box-shadow: 0 2px 25px 2px rgba(0, 0, 0, 1), 0 2px 50px 2px rgba(0, 0, 0, 1), 0 0 100px 3px rgba(0, 0, 0, .25);
+  height: 1px;
+  margin: -1px auto 0;
+  width: 80%;
+  z-index: -1;
+} 
+
+/* ------------------------------------------------------------------ */
+/* i. side ber
+/* ------------------------------------------------------------------ */
+/* 追従のサイドメニュー */
+.side-menu {
+    position: fixed;
+    top: 40vh;
+      right:0;
+      z-index:1;
+    font-size:0px;
+  }
+  
+  .side-menu li a{
+      color:#ffffff;
+    font-size:15px;
+      padding:40px 20px;
+      background-color: rgb(0, 0, 0);
+      -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+  }
+  
+  .side-menu  li a:hover {
+      background:#ffffff;
+      color:rgb(0, 0, 0);
+  }
+  
+  /*@media only screen and (max-width: 767px){
+      .side-menu li a {
+      padding:10px 17px;
+           font-size: 0.875em;
+          }*/
