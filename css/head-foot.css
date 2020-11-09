@@ -271,6 +271,9 @@
   .youtube:hover a {
     color: #dd4b39;
   }
+  .github:hover a {
+    color: #000000;
+  }  
    
  
  .l-footer_nav {
